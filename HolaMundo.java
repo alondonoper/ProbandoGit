@@ -5,7 +5,7 @@ public class HolaMundo {
         var nombre = "Andres";
 
         var sc = new Scanner(System.in);
-        System.out.print("Ingrese su nombre: ");
+        System.out.print("Ingrese su nombre, por favor: ");
         nombre = sc.nextLine();
 
         System.out.printf("Hola, %s: %d %.2f", nombre, 10, 3.8);
